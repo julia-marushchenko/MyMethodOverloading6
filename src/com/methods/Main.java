@@ -6,7 +6,7 @@ package com.methods;
 public class Main {
 
     // Method get to sum two integers
-    public static int add(int number, int number1){ // Compiler exception
+    public static int add(int number, int number1){
         int sum = number + number1;
         return sum;
     }

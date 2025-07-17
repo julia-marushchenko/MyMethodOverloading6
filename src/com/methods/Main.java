@@ -6,7 +6,7 @@ package com.methods;
 public class Main {
 
     // Method get to sum two integers
-    public static int add(int number, int number1){
+    public static int add(int number, int number1){ // Compiler exception
         int sum = number + number1;
         return sum;
     }
@@ -27,7 +27,7 @@ public class Main {
         System.out.println(Main.add(3, 5));
 
         // Calling method add() with three arguments
-        System.out.println(m.add(3, 5, 8)); // Calls wrong method with two arguments
+        System.out.println(m.add(3, 5, 8)); 
 
     }
 }
